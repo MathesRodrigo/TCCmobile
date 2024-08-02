@@ -4,32 +4,71 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/Foto"
+    android:background="@drawable/foto1"
     tools:context=".tela_de_login">
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="190dp"
-        android:layout_height="76dp"
-        android:layout_marginStart="110dp"
-        android:layout_marginEnd="111dp"
-        android:layout_marginBottom="136dp"
+        android:layout_width="191dp"
+        android:layout_height="52dp"
+        android:backgroundTint="@color/black"
         android:text="CONFIRMAR"
         android:textColorLink="#000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="527dp" />
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="76dp"
-        android:layout_marginBottom="165dp"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/Mídia3" />
+        android:id="@+id/imageView2"
+        android:layout_width="341dp"
+        android:layout_height="621dp"
+        app:srcCompat="@drawable/Mídia"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="-232dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="272dp"
+        android:layout_height="46dp"
+        android:background="@android:drawable/editbox_background"
+        android:backgroundTint="#BFBFBF"
+        android:backgroundTintMode="add"
+        android:ellipsize="start"
+        android:ems="10"
+        android:hapticFeedbackEnabled="false"
+        android:inputType="textEmailAddress"
+        android:selectAllOnFocus="false"
+        android:singleLine="true"
+        android:text="SENHA"
+        android:textColor="#B5B5B5"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="410dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="272dp"
+        android:layout_height="46dp"
+        android:background="@android:drawable/editbox_background"
+        android:backgroundTint="#CACACA"
+        android:backgroundTintMode="add"
+        android:ellipsize="start"
+        android:ems="10"
+        android:hapticFeedbackEnabled="false"
+        android:inputType="textEmailAddress"
+        android:selectAllOnFocus="false"
+        android:singleLine="true"
+        android:text="EMAIL"
+        android:textColor="#B5B2B2"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="334dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="136dp"
+        android:layout_height="25dp"
+        android:text="Esqueceu a senha?"
+        tools:layout_editor_absoluteX="271dp"
+        tools:layout_editor_absoluteY="456dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
