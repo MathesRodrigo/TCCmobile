@@ -9,21 +9,21 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="191dp"
-        android:layout_height="52dp"
+        android:layout_width="197dp"
+        android:layout_height="59dp"
         android:backgroundTint="@color/black"
         android:text="CONFIRMAR"
         android:textColorLink="#000000"
-        tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="527dp" />
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="526dp" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="341dp"
-        android:layout_height="621dp"
+        android:layout_width="339dp"
+        android:layout_height="618dp"
         app:srcCompat="@drawable/Mídia"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="-232dp" />
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="-227dp" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"

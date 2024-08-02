@@ -4,6 +4,138 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/foto1"
     tools:context=".tela_de_cadastro">
 
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="197dp"
+        android:layout_height="59dp"
+        android:backgroundTint="@color/black"
+        android:text="CONFIRMAR"
+        android:textColorLink="#000000"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="610dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress3"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="272dp"
+        android:layout_height="46dp"
+        android:background="@android:drawable/editbox_background"
+        android:backgroundTint="#CACACA"
+        android:backgroundTintMode="add"
+        android:ellipsize="start"
+        android:ems="10"
+        android:hapticFeedbackEnabled="false"
+        android:inputType="textEmailAddress"
+        android:selectAllOnFocus="false"
+        android:singleLine="true"
+        android:text="NOME COMPLETO"
+        android:textColor="#B5B2B2"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="192dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress4"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="272dp"
+        android:layout_height="46dp"
+        android:background="@android:drawable/editbox_background"
+        android:backgroundTint="#CACACA"
+        android:backgroundTintMode="add"
+        android:ellipsize="start"
+        android:ems="10"
+        android:hapticFeedbackEnabled="false"
+        android:inputType="textEmailAddress"
+        android:selectAllOnFocus="false"
+        android:singleLine="true"
+        android:text="EMAIL"
+        android:textColor="#B5B2B2"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="259dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress5"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="272dp"
+        android:layout_height="46dp"
+        android:background="@android:drawable/editbox_background"
+        android:backgroundTint="#CACACA"
+        android:backgroundTintMode="add"
+        android:ellipsize="start"
+        android:ems="10"
+        android:hapticFeedbackEnabled="false"
+        android:inputType="textEmailAddress"
+        android:selectAllOnFocus="false"
+        android:singleLine="true"
+        android:text="CPF"
+        android:textColor="#B5B2B2"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="323dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="341dp"
+        android:layout_height="595dp"
+        app:srcCompat="@drawable/Mídia"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="-216dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress6"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="272dp"
+        android:layout_height="46dp"
+        android:background="@android:drawable/editbox_background"
+        android:backgroundTint="#CACACA"
+        android:backgroundTintMode="add"
+        android:ellipsize="start"
+        android:ems="10"
+        android:hapticFeedbackEnabled="false"
+        android:inputType="textEmailAddress"
+        android:selectAllOnFocus="false"
+        android:singleLine="true"
+        android:text="TELEFONE"
+        android:textColor="#B5B2B2"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="392dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress7"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="272dp"
+        android:layout_height="46dp"
+        android:background="@android:drawable/editbox_background"
+        android:backgroundTint="#CACACA"
+        android:backgroundTintMode="add"
+        android:ellipsize="start"
+        android:ems="10"
+        android:hapticFeedbackEnabled="false"
+        android:inputType="textEmailAddress"
+        android:selectAllOnFocus="false"
+        android:singleLine="true"
+        android:text="DD/MM/AA"
+        android:textColor="#B5B2B2"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="455dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress8"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="272dp"
+        android:layout_height="46dp"
+        android:background="@android:drawable/editbox_background"
+        android:backgroundTint="#CACACA"
+        android:backgroundTintMode="add"
+        android:ellipsize="start"
+        android:ems="10"
+        android:hapticFeedbackEnabled="false"
+        android:inputType="textEmailAddress"
+        android:selectAllOnFocus="false"
+        android:singleLine="true"
+        android:text="SENHA"
+        android:textColor="#B5B2B2"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="523dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
